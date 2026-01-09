@@ -1,2 +1,64 @@
+# --- Python ---
 __pycache__/
+**/__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# --- Flask ---
+instance/
+.webassets-cache
+
+# --- Ambientes Virtuais (Virtual Envs) ---
 venv/
+env/
+.env
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# --- Variáveis de Ambiente e Segredos (CRÍTICO) ---
+.env
+.env.local
+.env.*.local
+
+# --- IDEs e Editores ---
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --- Logs e Databases Locais ---
+*.log
+*.sqlite
+*.db
+
+# --- Sistema Operacional ---
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# --- Testes e Coverage ---
+.coverage
+htmlcov/
+.pytest_cache/
